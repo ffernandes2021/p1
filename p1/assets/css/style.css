@@ -1,0 +1,29 @@
+pre {
+    color: #000;
+    font-family: Liberation Mono;
+}
+.ST0 {
+    color: #628fb5;
+}
+.ST2,
+.tag {
+    color: #0000e6;
+}
+.ST3 {
+    font-weight: bold;
+}
+.ST4,
+.block-comment {
+    color: #969696;
+}
+.ST5 {
+    color: #9F0D79;
+}
+.ST6,
+.argument {
+    color: #009900;
+}
+.ST7,
+.value {
+    color: #CE7B00;
+}
