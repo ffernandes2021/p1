@@ -8,10 +8,27 @@
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/image/favicon.png" rel="icon" type="image/png">
-  </head>
-  <body>
+  </head> 
+  <body class="container-fluid">
+    <div class="row">
+      <div class="col-sm-9 col-12">
+        <img alt="" src="assets/img/favicon.png">                    
+        <h2>Pokédex</h2>
+      </div>          
+      <div class="col-12 col-sm-3">
+        <div class="input-group">
+          <input class="form-control" id="pokemon" placeholder="Pokémon: name | id" type="text">
+          <span class="input-group-btn">
+            <button class="btn" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="row"></div>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>    
-  </body>  
+  </body>
 </html>
