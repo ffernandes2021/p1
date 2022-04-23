@@ -1,29 +1,51 @@
-pre {
-    color: #000;
-    font-family: Liberation Mono;
+.container-fluid {
+    font-family: "Courier New", Courier, monospace;    
+    padding: 0;
 }
-.ST0 {
-    color: #628fb5;
+
+.row {
+    margin: 0;
 }
-.ST2,
-.tag {
-    color: #0000e6;
+
+.row:first-child {
+    background-color: #24292E;    
 }
-.ST3 {
-    font-weight: bold;
+
+.row:first-child,
+.row > div {
+    padding: 10px;
 }
-.ST4,
-.block-comment {
-    color: #969696;
+
+.row:first-child div {
+    align-items: center;
+    display: flex;
 }
-.ST5 {
-    color: #9F0D79;
+
+.row div img {
+    float: left;
+    margin-right: 10px;
 }
-.ST6,
-.argument {
-    color: #009900;
+
+h2 {    
+    margin-bottom: 0;
 }
-.ST7,
-.value {
-    color: #CE7B00;
+
+h2,
+.form-control,
+.form-control:focus {
+    color: #FFF;
+}
+
+.form-control::placeholder {
+    color:#999;
+}
+
+.form-control,
+.form-control:focus {
+    background-color: #24292E;
+    border: solid 1px #999;
+}
+
+.form-control:focus {
+    box-shadow: none;
 }
