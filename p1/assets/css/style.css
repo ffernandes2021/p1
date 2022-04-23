@@ -32,7 +32,8 @@ h2 {
 
 h2,
 .form-control,
-.form-control:focus {
+.form-control:focus,
+svg {
     color: #FFF;
 }
 
@@ -42,10 +43,21 @@ h2,
 
 .form-control,
 .form-control:focus {
-    background-color: #24292E;
+    background-color: #24292E;    
+}
+
+.form-control,
+.form-control:focus,
+.btn {
     border: solid 1px #999;
 }
 
-.form-control:focus {
+.form-control:focus,
+.btn:focus {
     box-shadow: none;
+}
+
+.btn {
+    background-color: #000;
+    border-radius: 0 4px 4px 0;
 }
