@@ -17,7 +17,7 @@ function getPokemon(valor) {
             content = "<div class=\"col-6 "+data.types[0].type.name+"\"><div>"+data.types[0].type.name+"</div></div><div class=\"col-6 "+data.types[1].type.name+"\"><div>"+data.types[1].type.name+"</div></div>";            
         } else {
             // Se for do tipo ÚNICO, obtenha-o da primeira posição, isto é, 0.
-            content = "<div class=\"col-12 "+data.types[0].type.name+"\"><div>"+data.types[i].type.name+"</div></div>";
+            content = "<div class=\"col-12 "+data.types[0].type.name+"\"><div>"+data.types[0].type.name+"</div></div>";
         }
         // Adiciona à content o restante do bloco de tags.
         // IMAGEM, NÚMERO e NOME são substituídos pelos correspondentes resultados da API.
