@@ -1,5 +1,16 @@
 let localContent = $("#localContent");
 
+function isEmpty(){
+    // Verifica se o input está vazio
+    if($.trim($("#pokemon").val()) === ""){
+        // imprime mensagem de erro  
+        localContent.html("<div class=\"center\">Enter the name | id of the pokémon to perform the search.</div>");
+    } else {
+        // senão chama a getPokemon passando como argumento o valor do input
+        getPokemon($("#pokemon").val());
+    }
+}
+
 function getPokemon(valor) {
     $.ajax({
         url: "https://pokeapi.co/api/v2/pokemon/" + valor,
