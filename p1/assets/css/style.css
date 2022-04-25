@@ -67,7 +67,7 @@ h2,
 }
 
 h2,
-#localContent div div {
+#localContent div {
     font-weight: bold;
 }
 
@@ -87,15 +87,15 @@ h2,
     width: 100%;
 }
 
-#localContent > div,
-.center img {
-    padding: 20px;
-}
-
-#localContent div div {
+#localContent div {
     color: #24292E;
     font-size: 32px;
     text-align: center;
+}
+
+#localContent > div,
+.center img {
+    padding: 20px;
 }
 
 .center {
