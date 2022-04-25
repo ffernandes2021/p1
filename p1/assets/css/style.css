@@ -1,13 +1,16 @@
 .container-fluid {
     font-family: "Courier New", Courier, monospace;    
     padding: 0;
+    overflow: hidden;
 }
 
 .row {
     margin: 0;
 }
 
-.row:first-child {
+.row:first-child,
+.form-control,
+.form-control:focus {
     background-color: #24292E;    
 }
 
@@ -23,11 +26,11 @@
 
 .row div img {
     float: left;
-    margin-right: 10px;
 }
 
 h2 {    
     margin-bottom: 0;
+    margin-left: 10px;
 }
 
 h2,
@@ -37,13 +40,13 @@ svg {
     color: #FFF;
 }
 
-.form-control::placeholder {
-    color:#999;
+h2,
+#localContent div div {
+    font-weight: bold;
 }
 
-.form-control,
-.form-control:focus {
-    background-color: #24292E;    
+.form-control::placeholder {
+    color:#999;
 }
 
 .form-control,
@@ -60,4 +63,137 @@ svg {
 .btn {
     background-color: #000;
     border-radius: 0 4px 4px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.container-fluid {
+    font-family: "Courier New", Courier, monospace;    
+    padding: 0;
+
+    overflow: hidden;
+}
+
+h2,
+#localContent div div {
+    font-weight: bold;
+}
+
+#localContent,
+#localContent > div,
+.center img {
+    height: 70%;
+}
+
+#localContent {
+    position: absolute;    
+}
+
+#localContent,
+.center img {
+    width: 100%;
+}
+
+#localContent > div,
+.center img {
+    padding: 20px;
+}
+
+#localContent div div {
+    color: #24292E;
+    font-size: 32px;
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.center img {
+    max-height: 400px;
+    position: absolute;
+    top: 20%;
+}
+
+/* Background types */
+
+.bug {
+    background-color: #A8B820;    
+}
+
+.dark {
+    background-color: #705848;
+}
+
+.dragon {
+    background-color: #7038F8; 
+}
+
+.electric {
+    background-color: #F8D030;    
+}
+
+.fairy {
+    background-color: #EE99AC;
+}
+
+.fighting {
+    background-color: #C03028;
+}
+
+.fire {
+    background-color: #F08030;
+}
+
+.flying {
+    background-color: #A890F0;    
+}
+
+.ghost {
+    background-color: #705898;
+}
+
+.grass {
+    background-color: #78C850;
+}
+
+.ground {
+    background-color: #E0C068;     
+}
+
+.ice {
+    background-color: #98D8D8;
+}
+
+.normal {
+    background-color: #A8A878;    
+}
+
+.poison {
+    background-color: #A040A0;
+}
+
+.psychic {
+    background-color: #F85888;
+}
+
+.rock {
+    background-color: #B8A038;
+}
+
+.steel {
+    background-color: #B8B8D0;
+}
+
+.water {
+    background-color: #6890F0;
 }
