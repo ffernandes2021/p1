@@ -19,7 +19,8 @@
     padding: 10px;
 }
 
-.row:first-child div {
+.row:first-child div,
+.center {
     align-items: center;
     display: flex;
 }
@@ -65,22 +66,6 @@ h2,
     border-radius: 0 4px 4px 0;
 }
 
-
-
-
-
-
-
-
-
-
-.container-fluid {
-    font-family: "Courier New", Courier, monospace;    
-    padding: 0;
-
-    overflow: hidden;
-}
-
 h2,
 #localContent div div {
     font-weight: bold;
@@ -92,7 +77,8 @@ h2,
     height: 70%;
 }
 
-#localContent {
+#localContent,
+.center img {
     position: absolute;    
 }
 
@@ -113,18 +99,15 @@ h2,
 }
 
 .center {
-    align-items: center;
-    display: flex;
     justify-content: center;    
 }
 
 .center img {
     max-height: 400px;
-    position: absolute;
     top: 20%;
 }
 
-/* Background types */
+/* TIPOS de pokémon */
 
 .bug {
     background-color: #A8B820;    
