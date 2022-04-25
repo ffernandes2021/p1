@@ -2,7 +2,7 @@ let localContent = $("#localContent");
 
 function isEmpty(){
     if($.trim($("#pokemon").val()) === ""){
-        localContent.html("<div class=\"center\">Enter the name | id of the pokémon to perform the search.</div>");
+        localContent.html("<div class=\"center\">Enter the name|id of the pokémon to perform the search.</div>");
     } else {
         getPokemon($("#pokemon").val().toLowerCase());
     }
