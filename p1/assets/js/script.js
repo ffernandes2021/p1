@@ -1,12 +1,9 @@
 let localContent = $("#localContent");
 
 function isEmpty(){
-    // Verifica se o input está vazio
     if($.trim($("#pokemon").val()) === ""){
-        // imprime mensagem de erro  
         localContent.html("<div class=\"center\">Enter the name | id of the pokémon to perform the search.</div>");
     } else {
-        // senão chama a getPokemon passando como argumento o valor do input
         getPokemon($("#pokemon").val());
     }
 }
@@ -18,7 +15,7 @@ function getPokemon(valor) {
         dataType: "json"
     })
     .done(function (data) {
-        let content = "";        
+        let content = "";
         if (data.types.length > 1) {
             content = "<div class=\"col-6 " + data.types[0].type.name + "\"><div>" + data.types[0].type.name + "</div></div><div class=\"col-6 " + data.types[1].type.name + "\"><div>" + data.types[1].type.name + "</div></div>";
         } else {
