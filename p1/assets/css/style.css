@@ -10,7 +10,8 @@
 
 .row:first-child,
 .form-control,
-.form-control:focus {
+.form-control:focus,
+.btn {
     background-color: #24292E;    
 }
 
@@ -62,7 +63,6 @@ h2,
 }
 
 .btn {
-    background-color: #000;
     border-radius: 0 4px 4px 0;
 }
 
