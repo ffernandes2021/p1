@@ -1,4 +1,4 @@
-let localContent = $("#localContent");
+const localContent = $("#localContent");
 
 function isEmpty(){
     if($.trim($("#pokemon").val()) === ""){
