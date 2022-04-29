@@ -1,5 +1,5 @@
 .container-fluid {
-    font-family: "Courier New", Courier, monospace;    
+    font-family: "Courier New", Courier, monospace;
     padding: 0;
     overflow: hidden;
 }
@@ -12,7 +12,7 @@
 .form-control,
 .form-control:focus,
 .btn {
-    background-color: #24292E;    
+    background-color: #24292E;
 }
 
 .row:first-child,
@@ -30,7 +30,7 @@
     float: left;
 }
 
-h2 {    
+h2 {
     margin-bottom: 0;
     margin-left: 10px;
 }
@@ -79,7 +79,7 @@ h2,
 
 #localContent,
 .center img {
-    position: absolute;    
+    position: absolute;
 }
 
 #localContent,
@@ -99,7 +99,7 @@ h2,
 }
 
 .center {
-    justify-content: center;    
+    justify-content: center;
 }
 
 .center img {
@@ -108,7 +108,7 @@ h2,
 }
 
 .bug {
-    background-color: #A8B820;    
+    background-color: #A8B820;
 }
 
 .dark {
@@ -116,11 +116,11 @@ h2,
 }
 
 .dragon {
-    background-color: #7038F8; 
+    background-color: #7038F8;
 }
 
 .electric {
-    background-color: #F8D030;    
+    background-color: #F8D030;
 }
 
 .fairy {
@@ -136,7 +136,7 @@ h2,
 }
 
 .flying {
-    background-color: #A890F0;    
+    background-color: #A890F0;
 }
 
 .ghost {
@@ -148,7 +148,7 @@ h2,
 }
 
 .ground {
-    background-color: #E0C068;     
+    background-color: #E0C068;
 }
 
 .ice {
@@ -156,7 +156,7 @@ h2,
 }
 
 .normal {
-    background-color: #A8A878;    
+    background-color: #A8A878;
 }
 
 .poison {

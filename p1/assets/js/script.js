@@ -1,7 +1,7 @@
 const localContent = $("#localContent");
 
-function isEmpty(){
-    if($.trim($("#pokemon").val()) === ""){
+function isEmpty() {
+    if ($.trim($("#pokemon").val()) === "") {
         localContent.html("<div class=\"center\">Enter the name|id of the pokémon to perform the search.</div>");
     } else {
         getPokemon($("#pokemon").val().toLowerCase());
@@ -24,7 +24,7 @@ function getPokemon(valor) {
         content = content.concat("<div class=\"center\"><img alt=\"\" src=" + data.sprites.other.dream_world.front_default + "><div>" + data.id + " - " + data.name + "</div></div>");
         localContent.html(content);
     })
-    .fail(function(){   
+    .fail(function () {
         localContent.html("<div class=\"center\">\"There is no data! There are still pokémons to be identified.\" (Pokémon, I Choose You!)</div>");
     });
 }
